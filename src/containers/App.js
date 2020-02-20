@@ -4,6 +4,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 
+//You need to extend component and call super() in order to work with stats
 class App extends Component  {
 	constructor() {
 		super()
